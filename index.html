@@ -1,115 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人网站</title>
+    <title>SciGeek</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            line-height: 1.6;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #77aaff 3px solid;
-        }
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            float: left;
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        header #branding {
-            float: left;
-        }
-        header #branding h1 {
-            margin: 0;
-        }
-        header nav {
-            float: right;
-            margin-top: 10px;
-        }
-        header .highlight, header .current a {
-            color: #e8491d;
-            font-weight: bold;
-        }
-        header a:hover {
-            color: #ffffff;
-            font-weight: bold;
-        }
-        .banner {
-            background: #77aaff;
-            color: #fff;
-            padding: 10px 0px;
-        }
-        .banner h1 {
-            margin: 0;
-        }
-        .main-section {
-            padding: 20px 0;
-        }
-        .footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
+        /* Add your custom styles here */
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <div id="branding">
-                <h1><span class="highlight">我的</span> 个人网站</h1>
-            </div>
+            <h1>SciGeek</h1>
             <nav>
                 <ul>
-                    <li class="current"><a href="index.html">首页</a></li>
-                    <li><a href="about.html">关于我</a></li>
-                    <li><a href="portfolio.html">作品集</a></li>
-                    <li><a href="contact.html">联系我</a></li>
+                    <li><a href="/">首页</a></li>
+                    <li><a href="/categories/学习笔记/">学习笔记</a></li>
+                    <li><a href="/categories/书摘/">书摘</a></li>
+                    <li><a href="/categories/便签/">便签</a></li>
+                    <li><a href="/tags/">标签</a></li>
+                    <li><a href="/archives/">归档</a></li>
+                    <li><a href="/about/">关于</a></li>
+                    <li><a href="/search/">搜索</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="banner">
+    <main>
         <div class="container">
-            <h1>欢迎来到我的个人网站</h1>
+            <!-- Add your main content here -->
         </div>
-    </section>
+    </main>
 
-    <section class="main-section">
+    <footer>
         <div class="container">
-            <h2>简介</h2>
-            <p>这里是我的个人网站，展示我的作品、经历和联系方式。欢迎浏览和交流。</p>
+            <p>版权所有 &copy; 2023 SciGeek</p>
+            <p>皖ICP 备2020019658 号</p>
         </div>
-    </section>
-
-    <footer class="footer">
-        <p>版权所有 &copy; 2025 个人网站</p>
     </footer>
 </body>
 </html>
